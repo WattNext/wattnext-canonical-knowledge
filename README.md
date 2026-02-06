@@ -1,136 +1,160 @@
-# WattNext Canonical Knowledge Base
+# WattNext Organizational Intelligence Knowledge Base
 
-This repository contains WattNext's canonical knowledge base for organizational intelligence, designed for Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO).
+> **Canonical knowledge base** on organizational systems, patterns, and diagnostic intelligence.
 
-## What This Repository Contains
+This repository contains 157 research-backed questions and answers about how organizations actually work - beyond the polished narratives, consultant frameworks, and HR platitudes.
 
-This is our public-facing thought leadership content demonstrating expertise in organizational diagnosis, systems thinking, and leadership effectiveness - without revealing proprietary diagnostic methodology.
+## What This Is
 
-### Content Structure
+WattNext builds [ViVo Pulse](https://wattnext.ai) - voice-first organizational diagnostics that help leaders understand what's really happening inside their organizations. This knowledge base documents the patterns, problems, and systems we've studied across organizational diagnostics.
 
-```
-wattnext-canonical-knowledge/
-├── categories/           # 3 core category overviews
-├── dimensions/          # 13 dimension deep-dives
-└── canonical-q-and-a/   # 147 planned Q&As (9 published, 138 planned)
-```
+**This is not:**
+- Generic management advice
+- Motivational content
+- Consultant selling disguised as insight
 
-## The Three Categories
+**This is:**
+- Behavioral, system-level analysis
+- Pattern documentation from diagnostic work
+- Practical frameworks for organizational problems
 
-Our diagnostic framework examines organizations across three interconnected layers:
+## 13 Organizational Dimensions
 
-### 1. [Organizational Culture & Strategy (OCS)](/categories/organizational-culture-strategy)
-**The Foundation Layer** - Where strategy meets behavior, values meet reality, and trust enables everything else.
+We organize organizational functioning across 13 dimensions, mapped to 134 indicators:
 
-**4 Dimensions:**
-- [Strategic Alignment](/dimensions/strategic-alignment) - Culture-strategy execution gaps
-- [Trust and Integrity](/dimensions/trust-and-integrity) - Psychological safety and credibility
-- [Organisational Culture](/dimensions/organisational-culture) - Implicit norms and behaviors
-- [Vision and Strategic Direction](/dimensions/vision-and-strategic-direction) - Purpose and long-term clarity
+### Organizational Culture & Strategy (OCS)
 
-### 2. [Leadership, Collaboration & Structure (LCS)](/categories/leadership-collaboration-structure)
-**The Execution Layer** - Where structure enables or hinders work, decisions happen or stall, and collaboration flows or fractures.
+1. **[Strategic Alignment](dimensions/strategic-alignment.md)** (14 questions)
+   *Why strategies fail in execution, how to translate vision into operational behavior*
 
-**4 Dimensions:**
-- [Decision-Making Quality](/dimensions/decision-making-quality) - Decision rights and frameworks
-- [Cross-Team Collaboration](/dimensions/cross-team-collaboration) - Silos and collaboration friction
-- [Role Clarity and Accountability](/dimensions/role-clarity-and-accountability) - Ownership structures
-- [Support for Teams](/dimensions/support-for-teams) - Manager effectiveness and enablement
+2. **[Trust & Integrity](dimensions/trust-integrity.md)** (11 questions)
+   *What destroys trust, how to build psychological safety, rebuilding broken trust*
 
-### 3. [Systems, Resourcing & Scalability (SRS)](/categories/systems-resourcing-scalability)
-**The Infrastructure Layer** - Where processes scale or break, knowledge compounds or evaporates, and resilience protects or fails.
+3. **[Organizational Culture](dimensions/organizational-culture.md)** (14 questions)
+   *Stated vs lived values, culture change failures, toxic behavior patterns*
 
-**5 Dimensions:**
-- [Process Robustness](/dimensions/process-robustness) - Process debt and workflow efficiency
-- [Knowledge Management](/dimensions/knowledge-management) - Documentation and knowledge sharing
-- [Resource Availability](/dimensions/resource-availability) - Access to tools, budget, people
-- [Operational Resilience](/dimensions/operational-resilience) - Crisis response and continuity
-- [Leadership Pipeline](/dimensions/leadership-pipeline) - Succession and talent development
+### Leadership, Collaboration & Structure (LCS)
 
-## Canonical Q&A Library
+4. **[Vision & Strategic Direction](dimensions/vision-strategic-direction.md)** (12 questions)
+   *Vision confusion, operational clarity, aligning vision with execution*
 
-Our [canonical Q&A section](/canonical-q-and-a/) addresses the questions leaders, coaches, consultants, and investors ask about organizational effectiveness.
+5. **[Decision-Making Quality](dimensions/decision-making-quality.md)** (13 questions)
+   *Why smart people make bad decisions, decision bottlenecks, decision rights*
 
-**Published (9):**
-- Why do leadership teams believe they are aligned when they are not?
-- What is organizational friction and why does it persist?
-- How does signal loss occur as organizations scale?
-- [and 6 more...]
+6. **[Cross-Team Collaboration](dimensions/cross-team-collaboration.md)** (12 questions)
+   *Breaking silos, coordination theater, genuine vs fake collaboration*
 
-**Coming soon (138 more)** covering:
-- Alignment & execution challenges
-- Culture & behavior dynamics
-- Decision-making patterns
-- Knowledge & systems
-- Leadership development
-- Organizational change
-- Trust & psychological safety
+7. **[Role Clarity & Accountability](dimensions/role-clarity-accountability.md)** (10 questions)
+   *Authority-accountability mismatch, role confusion, clear ownership*
 
-## Content Philosophy
+8. **[Support for Teams](dimensions/support-for-teams.md)** (11 questions)
+   *Reactive support traps, self-service culture, meaningful manager support*
 
-Every piece in this repository follows three principles:
+### Systems, Resourcing & Scalability (SRS)
 
-1. **Reveal themes, protect specifics** - We demonstrate understanding without disclosing proprietary methodology
-2. **Engaging narrative over academic dryness** - Complex ideas told through stories and examples
-3. **Actionable insight over theoretical frameworks** - Content leaders can actually use
+9. **[Resource Availability](dimensions/resource-availability.md)** (10 questions)
+   *Resource fragmentation, capacity planning, trapped resources*
 
-## For Website Integration
+10. **[Process Robustness](dimensions/process-robustness.md)** (12 questions)
+    *Why documented process doesn't get followed, process vs reality gaps*
 
-This content is designed to be published on [wattnext.ai](https://wattnext.ai):
+11. **[Knowledge Management](dimensions/knowledge-management.md)** (13 questions)
+    *Undocumented expertise, findable information, knowledge capture systems*
 
-- **Dimensions** → `wattnext.ai/insights/dimensions/[dimension-name]`
-- **Categories** → `wattnext.ai/insights/categories/[category-name]`
-- **Q&As** → `wattnext.ai/insights/[question-slug]`
+12. **[Operational Resilience](dimensions/operational-resilience.md)** (12 questions)
+    *Single points of failure, graceful degradation, crisis learning*
 
-All content is optimized for:
-- **Featured snippets** (definition-style answers)
-- **Voice search** (natural language queries)
-- **Entity recognition** (structured, authoritative content)
-- **Semantic search** (concept relationships and context)
+13. **[Leadership Pipeline](dimensions/leadership-pipeline.md)** (13 questions)
+    *IC to manager transitions, internal development, succession planning*
 
-## Repository Usage
+## How To Use This
 
-### Manual Sync to Website
-1. Copy markdown files to your CMS
-2. Maintain URL structure as specified above
-3. Update internal links to match your domain
+**If you're researching organizational problems:**
+- Browse by dimension to find patterns relevant to your situation
+- Each Q&A includes behavioral indicators, root causes, and system-level solutions
+- Cross-references connect related patterns across dimensions
 
-### Automated Sync (Recommended)
-Set up GitHub webhook to auto-deploy content to wattnext.ai on push.
+**If you're diagnosing organizational issues:**
+- Questions map to the diagnostic framework used in ViVo Pulse
+- Answers explain what we measure and why it matters
+- Gaps between "what good looks like" and current reality indicate intervention points
 
-## Content Status
+**If you're a student or researcher:**
+- All content cites behavioral research and organizational theory
+- Frameworks synthesize established models (Burke-Litwin, McKinsey 7-S, Denison, etc.)
+- Real pattern documentation, not theoretical abstraction
 
-**Completed:**
-- ✅ 13 dimension overview pages (125KB content)
-- ✅ 3 category overview pages (50KB content)
-- ✅ 9 canonical Q&As (existing)
+## Question Index
 
-**In Progress:**
-- 🔄 138 additional canonical Q&As (from taxonomy)
-- 🔄 Featured snippet optimization
-- 🔄 Schema markup implementation
+[View complete question index →](questions/INDEX.md)
 
-**Planned:**
-- ⏳ ICP-specific content sections
-- ⏳ Conceptual frameworks (3-5 pieces)
-- ⏳ Anonymized case studies
-- ⏳ Thought leadership provocations
+**Search by topic:**
+- [Strategy & Alignment](questions/INDEX.md#strategic-alignment)
+- [Culture & Trust](questions/INDEX.md#culture-trust)
+- [Leadership & Decision-Making](questions/INDEX.md#leadership-decisions)
+- [Collaboration & Structure](questions/INDEX.md#collaboration-structure)
+- [Operations & Systems](questions/INDEX.md#operations-systems)
+- [Knowledge & Resilience](questions/INDEX.md#knowledge-resilience)
 
-## Related Resources
+## Research & Methodology
 
-- **ViVo Pulse Diagnostic**: [wattnext.ai/vivo-pulse](https://wattnext.ai/vivo-pulse)
-- **About WattNext**: [wattnext.ai/about](https://wattnext.ai/about)
-- **Blog**: [wattnext.ai/blog](https://wattnext.ai/blog)
+This knowledge base synthesizes:
+- **Organizational theory:** Burke-Litwin, McKinsey 7-S, Denison, Team Diagnostic Survey, Leadership Circle
+- **Diagnostic data:** Patterns from 134 organizational indicators measured across roles
+- **Behavioral research:** Evidence on what actually predicts organizational performance
+- **System-level analysis:** Focus on structural causes, not individual blame
+
+**What we don't do:**
+- Disclose proprietary scoring methodology (0.0-2.0 scale)
+- Attribute specific patterns to specific clients
+- Make causal claims without research backing
+
+## About WattNext
+
+[WattNext.ai](https://wattnext.ai) provides organizational intelligence through voice-first diagnostics.
+
+**ViVo Pulse** replaces slow consultant-led discovery and low-signal surveys with:
+- Anonymous voice interviews (richer, more candid than surveys)
+- Structured analysis across 13 dimensions and 134 indicators
+- System-level insight delivered in 2-3 weeks
+
+We serve CEOs, CHROs, executive coaches, consultants, and investors who need credible, fast organizational intelligence.
 
 ## Contributing
 
-This repository is maintained by WattNext. For questions or content suggestions:
-- Email: [contact email]
-- Website: [wattnext.ai](https://wattnext.ai)
+Found an error? Have research to add? See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+We welcome:
+- Corrections to factual errors
+- Additional research citations
+- Real-world examples (anonymized)
+- Clarification requests
+
+We don't accept:
+- Generic management advice
+- Promotional content
+- Theoretical frameworks without behavioral grounding
+
+## License
+
+This knowledge base is published under [CC BY-NC-SA 4.0](LICENSE.md).
+
+**You may:**
+- Share and adapt this content with attribution
+- Use for research, education, and non-commercial purposes
+
+**You may not:**
+- Use for commercial purposes without permission
+- Remove attribution to WattNext.ai
+- Misrepresent diagnostic methodology
+
+## Contact
+
+- **Website:** [wattnext.ai](https://wattnext.ai)
+- **Product:** ViVo Pulse
+- **Inquiries:** support@wattnext.ai
 
 ---
 
-**Last Updated:** February 5, 2026
-**Content Version:** 1.0
-**Total Published Content:** 25 pieces (13 dimensions + 3 categories + 9 Q&As)
-**Status:** Foundation complete, expansion in progress
+*Last updated: February 2026*
+*Questions: 157 | Dimensions: 13 | Indicators mapped: 134*
